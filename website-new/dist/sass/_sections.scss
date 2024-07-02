@@ -1,0 +1,58 @@
+body{
+  background: #34495e;
+}
+.box{
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  background: #95a5a6;
+  width: 350px;
+  border-radius: 5px;
+  input{
+    padding: 6px 10px;
+    border: 1px solid $color-technology;
+    border-radius: 5px;
+    outline: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+  button{
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid $color-technology;
+    padding: 6px 10px;
+    background: $color-technology;
+    color: $color-1st;
+    &:hover{
+      background: $color-kids;
+    }
+  }
+  div{
+    margin: 20px 0;
+  }
+  .divBtns{
+    
+    .btnMain{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      button{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3px 0;
+      }
+    }
+    .btnNum{
+      text-align: center;
+      button{
+        margin: 10px 25px;
+      }
+    }
+  }
+}
